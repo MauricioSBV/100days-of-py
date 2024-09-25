@@ -20,5 +20,5 @@ for number in range(nr_numbers):
 char_list = list(password)
 random.shuffle(char_list)
 
-shuffled_password = password.join(char_list)
+shuffled_password = "".join(char_list)
 print(f"Your new password is: {shuffled_password}")
